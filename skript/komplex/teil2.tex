@@ -1,8 +1,8 @@
 \section{Finden der Lösungen}
-Dieser Abschnitt dreht sich nun um die Bedeutung der Matrix $A$ für die Form der Lösungen $w_1$ und $w_2$. 
+Dieser Abschnitt dreht sich nun darum, was die Matrix $A$ für die Form der Lösungen $w_1$ und $w_2$ bedeutet. 
 Die beiden Fälle Diagonal- und Dreiecksform werden einzeln betrachtet und analysiert.
 
-Als erstes wird untersucht, was mit den Lösungen durch die analytische Fortsetzung geschieht.
+Als erstes wird jeweils untersucht, was mit den Lösungen durch die analytische Fortsetzung geschieht.
 Als zweites sei eine Funktion gesucht, die dasselbe Verhalten zeigt.
 In einem dritten Schritt wird die Veränderung der Lösungen durch die gefundene Funktion kompensiert. Diese neue, kompensierte Form ist dann eindeutig und als Laurent-Reihe darstellbar.
 Abschliessend erfolgt die Auflösung der kompensierten Funktion nach der gesuchten Lösung.
@@ -14,7 +14,7 @@ Im Falle einer diagonalisierbaren Matrix
 lassen sich beide Lösungen unabhängig voneinander betrachten. 
 \subsubsection{Verhänderung durch analytische Fortsetzung}
 Für $j=1,2$ gilt
-\[\sk w_j = \lambda_j w_j\]
+\[\sk w_j = \lambda_j w_j.\]
 Die Lösungen werden durch Umlaufen des Nullpunktes also mit den Faktoren $\lambda_j$ multipliziert.
 
 \subsubsection{Funktion mit ähnlichem Verhalten}
@@ -22,9 +22,9 @@ Gegeben sei nun die Funktion
 \[f(z):=z^{\varrho_j} \quad\text{ mit }\quad \varrho_j := \frac{1}{2\pi i}\log \lambda_j.\]
 Gesucht ist die analytische Fortsetzung von $f(z)$.
 Bei $\varrho_j$ handelt es sich im Allgemeinen nicht um eine ganze Zahl.
-Um genauer zu verstehen, was bei der analytischen Fortsetzung geschieht, soll die äquivalente Form
-\[z^{\varrho_j} = e^{\log(z^{\varrho_j})} = e^{\varrho_j \log z}\]
-betrachtet werden.
+Um genauer zu verstehen, was bei der analytischen Fortsetzung geschieht, soll die äquivalente Form betrachtet werden
+\[z^{\varrho_j} = e^{\log(z^{\varrho_j})} = e^{\varrho_j \log z}.\]
+
 
 Die Exponentialfunktion ist eindeutig und bleibt unverändert.
 Der Logarithmus wird zu $\log z + 2\pi i$.
@@ -125,7 +125,7 @@ Die zweite Lösung findet sich also als Kombination einer Laurent-Reihe multipli
 In manchen Fällen ist ein Potenzreihen-Ansatz mit Koeffizientenvergleich nicht ausreichend, um für eine Differentialgleichung 2. Ordnung beide linear unabhängigen Lösungen zu finden. 
 Dies liegt daran, dass im Reellen nicht genügend Platz vorhanden ist, eventuelle Singularitäten zu umgehen. 
 Im Reellen gibt es auch kein Pendant zur analytischen Fortsetzung. 
-Die komplexe Mathematik bietet hier eine Möglichkeit, die "hinter der Singularität versteckte Lösung" \ zu finden, indem man diese Singularität durch die analytische Fortsetzung umgeht. 
+Die komplexe Mathematik bietet hier eine Möglichkeit, die ``hinter der Singularität versteckte Lösung'' zu finden, indem man diese Singularität durch die analytische Fortsetzung umgeht. 
 
 In der Herleitung der Lösungsformen für $w_1$ und $w_2$ wurde nirgends eine Annahme getroffen, welche Form die Koeffizienten der Differentialgleichung haben. 
 Für beliebige Differentialgleichungen der Form
